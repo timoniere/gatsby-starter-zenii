@@ -31,6 +31,7 @@ const Hero = ({ contentModuleId }) => {
     const content = data.allContentfulLayoutHero.edges.find(edge => edge.node.id === contentModuleId);
 
     return (
+        
         <section className="hero container section mx-auto">
             <div className="hero__tagline">
                 <div className="hero__tagline-content-wrap">
